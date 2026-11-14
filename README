@@ -1,0 +1,21 @@
+This is a basic kernel module that prints the string "Hello World".
+The module can receive params to print the string "Hello World" n times.
+
+Compile & test
+-----------------------
+
+After clone:
+1. make
+
+2. sudo insmod helloworld.ko repeat=4
+
+3. dmesg | tail should display "Hello world n: n" n times according to the param
+passed.
+
+Remove:
+
+4. sudo rmmod helloworld
+
+5. dmesg | tail to see the exit message.
+
+If no params are passed the module will use the default value: 1.
