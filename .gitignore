@@ -1,0 +1,15 @@
+..module-common.o.cmd
+.module-common.o
+.Module.symvers.cmd
+.modules.order.cmd
+.helloworld.ko.cmd
+.helloworld.mod.cmd
+.helloworld.mod.o.cmd
+.helloworld.o.cmd
+Module.symvers
+modules.order
+helloworld.ko
+helloworld.mod
+helloworld.o
+helloworld.mod.c
+helloworld.mod.o
